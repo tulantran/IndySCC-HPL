@@ -95,7 +95,8 @@ export OMPI_MCA_btl=self,vader,tcp # only shared memory and “self”
 ##export OMPI_MCA_btl=^openib
 export OMPI_MCA_pml=ob1
 
-/mnt/hpl_manila/opt/openmpi/bin/mpirun -np 192 /mnt/manila/opt/hpl/bin/xhpl ```
+/mnt/hpl_manila/opt/openmpi/bin/mpirun -np 192 /mnt/manila/opt/hpl/bin/xhpl
+```
 
 Test Results
 Problem Size (N): 290,048
